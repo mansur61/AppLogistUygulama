@@ -15,6 +15,9 @@
 		338FF19625A9D3FB00E630D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338FF19425A9D3FB00E630D5 /* LaunchScreen.storyboard */; };
 		338FF1A125A9D3FC00E630D5 /* AppLogistMulakatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF1A025A9D3FC00E630D5 /* AppLogistMulakatTests.swift */; };
 		338FF1AC25A9D3FC00E630D5 /* AppLogistMulakatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF1AB25A9D3FC00E630D5 /* AppLogistMulakatUITests.swift */; };
+		338FF1BA25A9D8F300E630D5 /* SepetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF1B925A9D8F300E630D5 /* SepetController.swift */; };
+		338FF1BC25A9E3A500E630D5 /* sepet.png in Resources */ = {isa = PBXBuildFile; fileRef = 338FF1BB25A9E3A500E630D5 /* sepet.png */; };
+		338FF1BE25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF1BD25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		338FF1A725A9D3FC00E630D5 /* AppLogistMulakatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLogistMulakatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FF1AB25A9D3FC00E630D5 /* AppLogistMulakatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogistMulakatUITests.swift; sourceTree = "<group>"; };
 		338FF1AD25A9D3FC00E630D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338FF1B925A9D8F300E630D5 /* SepetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetController.swift; sourceTree = "<group>"; };
+		338FF1BB25A9E3A500E630D5 /* sepet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sepet.png; sourceTree = "<group>"; };
+		338FF1BD25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,15 @@
 		338FF18825A9D3F800E630D5 /* AppLogistMulakat */ = {
 			isa = PBXGroup;
 			children = (
+				338FF1C125AA102D00E630D5 /* View */,
+				338FF1C025AA101B00E630D5 /* Controller */,
+				338FF1BF25AA101000E630D5 /* Modal */,
+				338FF1BB25A9E3A500E630D5 /* sepet.png */,
 				338FF18925A9D3F800E630D5 /* AppDelegate.swift */,
 				338FF18B25A9D3F800E630D5 /* SceneDelegate.swift */,
 				338FF18D25A9D3F800E630D5 /* ViewController.swift */,
 				338FF18F25A9D3F800E630D5 /* Main.storyboard */,
+				338FF1B925A9D8F300E630D5 /* SepetController.swift */,
 				338FF19225A9D3FB00E630D5 /* Assets.xcassets */,
 				338FF19425A9D3FB00E630D5 /* LaunchScreen.storyboard */,
 				338FF19725A9D3FB00E630D5 /* Info.plist */,
@@ -126,6 +137,28 @@
 				338FF1AD25A9D3FC00E630D5 /* Info.plist */,
 			);
 			path = AppLogistMulakatUITests;
+			sourceTree = "<group>";
+		};
+		338FF1BF25AA101000E630D5 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		338FF1C025AA101B00E630D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		338FF1C125AA102D00E630D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				338FF1BD25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +267,7 @@
 			files = (
 				338FF19625A9D3FB00E630D5 /* LaunchScreen.storyboard in Resources */,
 				338FF19325A9D3FB00E630D5 /* Assets.xcassets in Resources */,
+				338FF1BC25A9E3A500E630D5 /* sepet.png in Resources */,
 				338FF19125A9D3F800E630D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338FF1BE25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift in Sources */,
 				338FF18E25A9D3F800E630D5 /* ViewController.swift in Sources */,
+				338FF1BA25A9D8F300E630D5 /* SepetController.swift in Sources */,
 				338FF18A25A9D3F800E630D5 /* AppDelegate.swift in Sources */,
 				338FF18C25A9D3F800E630D5 /* SceneDelegate.swift in Sources */,
 			);
