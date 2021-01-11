@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDelegate{
+class ViewController: UIViewController, UICollectionViewDelegate, TumUrunlerDelegate{
 
-    
-    
-
-    
+       
     @IBOutlet weak var AnasayfaColection: UICollectionView!
+    var tumUrunleriGetir = TumUrunlerGoster()
+    var urunDizi:[TumUrunler] = []
     
     var sayac:Int = 0
     
@@ -24,14 +23,33 @@ class ViewController: UIViewController, UICollectionViewDelegate{
         AnasayfaColection.delegate = self
         AnasayfaColection.dataSource = self
         
-    
+        tumUrunleriGetir.delegate = self
+        
     }
+    override func viewWillAppear(_ animated: Bool) {
+        tumUrunleriGetir.yukleTumUrunleri()
+       /*
+        DispatchQueue.main.async {
+            self.AnasayfaColection.reloadData()
+        }
+         */
+    }
+
+
+    func getTumUrunler(getUrunler: [TumUrunler]) {
+        self.urunDizi = getUrunler
+    }
+    
 
     @IBAction func sepetBtn(_ sender: Any) {
         print("geldiii..s")
     }
-   
-   
+
+    @IBAction func artıButton(_ sender: UIButton) {
+        
+        print(sender.tag)
+    }
+    
     /*
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         
@@ -51,14 +69,14 @@ extension ViewController: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier:"Cell",for:indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier:"Cell",for:indexPath) as? AnasayfaCollectionViewCell
         
         
+        cell?.fiyat?.text! = "10.00"
         
-        
-        return cell
+        return cell!
     }
     
-    
+   
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336E076F25AC0EA100488758 /* TumUrunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E076E25AC0EA100488758 /* TumUrunler.swift */; };
+		336E077125AC0FCC00488758 /* TumUrunlerGoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E077025AC0FCC00488758 /* TumUrunlerGoster.swift */; };
 		338FF18A25A9D3F800E630D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF18925A9D3F800E630D5 /* AppDelegate.swift */; };
 		338FF18C25A9D3F800E630D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF18B25A9D3F800E630D5 /* SceneDelegate.swift */; };
 		338FF18E25A9D3F800E630D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF18D25A9D3F800E630D5 /* ViewController.swift */; };
@@ -18,6 +20,7 @@
 		338FF1BA25A9D8F300E630D5 /* SepetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF1B925A9D8F300E630D5 /* SepetController.swift */; };
 		338FF1BC25A9E3A500E630D5 /* sepet.png in Resources */ = {isa = PBXBuildFile; fileRef = 338FF1BB25A9E3A500E630D5 /* sepet.png */; };
 		338FF1BE25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FF1BD25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift */; };
+		33E4158925AB7531004BCB66 /* SepetViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4158825AB7531004BCB66 /* SepetViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		336E076E25AC0EA100488758 /* TumUrunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumUrunler.swift; sourceTree = "<group>"; };
+		336E077025AC0FCC00488758 /* TumUrunlerGoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumUrunlerGoster.swift; sourceTree = "<group>"; };
 		338FF18625A9D3F800E630D5 /* AppLogistMulakat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLogistMulakat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FF18925A9D3F800E630D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338FF18B25A9D3F800E630D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +60,7 @@
 		338FF1B925A9D8F300E630D5 /* SepetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetController.swift; sourceTree = "<group>"; };
 		338FF1BB25A9E3A500E630D5 /* sepet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sepet.png; sourceTree = "<group>"; };
 		338FF1BD25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaCollectionViewCell.swift; sourceTree = "<group>"; };
+		33E4158825AB7531004BCB66 /* SepetViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,8 @@
 		338FF1BF25AA101000E630D5 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				336E076E25AC0EA100488758 /* TumUrunler.swift */,
+				336E077025AC0FCC00488758 /* TumUrunlerGoster.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 		338FF1C125AA102D00E630D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				33E4158825AB7531004BCB66 /* SepetViewCell.swift */,
 				338FF1BD25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift */,
 			);
 			path = View;
@@ -293,8 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336E077125AC0FCC00488758 /* TumUrunlerGoster.swift in Sources */,
+				33E4158925AB7531004BCB66 /* SepetViewCell.swift in Sources */,
 				338FF1BE25AA0FF500E630D5 /* AnasayfaCollectionViewCell.swift in Sources */,
 				338FF18E25A9D3F800E630D5 /* ViewController.swift in Sources */,
+				336E076F25AC0EA100488758 /* TumUrunler.swift in Sources */,
 				338FF1BA25A9D8F300E630D5 /* SepetController.swift in Sources */,
 				338FF18A25A9D3F800E630D5 /* AppDelegate.swift in Sources */,
 				338FF18C25A9D3F800E630D5 /* SceneDelegate.swift in Sources */,

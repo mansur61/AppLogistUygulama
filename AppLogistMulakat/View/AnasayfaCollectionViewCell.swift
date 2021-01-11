@@ -17,4 +17,11 @@ class AnasayfaCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var artiBtn: UIButton!
     @IBOutlet weak var eksiBtn: UIButton!
     
+    
+     override func awakeFromNib() {
+           super.awakeFromNib()
+          
+           // ...
+       }
+    
 }
