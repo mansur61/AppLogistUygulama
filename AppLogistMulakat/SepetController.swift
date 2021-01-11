@@ -25,9 +25,13 @@ class SepetController: UIViewController {
     
     func dismissThisController()
     {
+        
+    performSegue(withIdentifier: "cikis", sender: nil)
+        /*
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
             self.dismiss(animated: true, completion: {})
         }
+         */
     }
     /*
     // MARK: - Navigation
@@ -66,10 +70,11 @@ extension SepetController: UITableViewDelegate,UITableViewDataSource{
         
         return cell!
      }
-
+    
      func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-         return 400
+         return 170
      }
+ 
     
 }
 

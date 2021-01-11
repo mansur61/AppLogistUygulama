@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct TumUrunler:Decodable{
+struct TumUrunler: Decodable{
     
     let id:String?
     let name:String?
-    let price:String?
+    let price:Float?
     let currency:String?
     let imageUrl:String?
-    let stock:String?
+    let stock:Int?
     
     enum CodingKeys: String, CodingKey {
         case id = "id"

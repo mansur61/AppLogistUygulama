@@ -10,6 +10,11 @@ import UIKit
 
 class SepetViewCell: UITableViewCell {
 
+    @IBOutlet weak var urunArtir: UIButton!
+    @IBOutlet weak var urunAzalt: UIButton!
+    @IBOutlet weak var urunFiyati: UILabel!
+    @IBOutlet weak var urunAdi: UILabel!
+    @IBOutlet weak var urunResim: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
