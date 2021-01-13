@@ -10,6 +10,7 @@ import UIKit
 
 class SepetViewCell: UITableViewCell {
 
+    @IBOutlet weak var adet: UILabel!
     @IBOutlet weak var urunArtir: UIButton!
     @IBOutlet weak var urunAzalt: UIButton!
     @IBOutlet weak var urunFiyati: UILabel!
@@ -25,5 +26,6 @@ class SepetViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    
 }

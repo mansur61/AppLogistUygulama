@@ -18,10 +18,21 @@ class AnasayfaCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var eksiBtn: UIButton!
     
     
-     override func awakeFromNib() {
+    
+    
+
+    override func awakeFromNib() {
            super.awakeFromNib()
-          
-           // ...
        }
     
+    func butonHiden(){
+        if let buton = eksiBtn {
+            buton.isEnabled = true
+        }
+    }
+    func labalYazdir(){
+        if let label = fiyat{
+            label.text! = "mansur"
+        }
+    }
 }
